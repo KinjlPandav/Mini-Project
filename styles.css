@@ -11,20 +11,16 @@ li{
 }
 a{
    text-decoration: none;
-   background-color: aqua;
    padding: 15px;
    background-color:red;
    height: 30px;
    line-height: 30px;
    color: antiquewhite;
-   /* display: inline-block; */
+   display: inline-block;
    text-align: center;
-   
 }
 a:hover{
     color: red;
-    background-color: blue;
+    background-color: rgb(123, 123, 203);
 }
-
-
 
