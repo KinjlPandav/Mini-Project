@@ -4,12 +4,12 @@ ul{
    list-style: none;
 }
 
-li{
+ul li{
    float: left;
    /* text-decoration: none;    */
    /* display: inline; */
 }
-a{
+ul li a{
    text-decoration: none;
    padding: 15px;
    background-color:red;
@@ -19,8 +19,30 @@ a{
    display: inline-block;
    text-align: center;
 }
-a:hover{
+ul li a:hover{
     color: red;
     background-color: rgb(123, 123, 203);
 }
 
+h1{
+   color: rgb(42, 93, 29);
+   text-shadow: 2px 2px 5px greenyellow;
+}
+p{
+   text-align: justify;
+   width: 500px;
+   height: 200px;
+   border: 2px solid rgb(200, 110, 110);
+   border-style: dashed;
+   overflow: hidden;
+   padding: 15px;
+   background-color: blanchedalmond;
+   text-align: justify;
+   text-transform: none;
+   color: brown;
+}
+
+div img{
+   height: 400px;
+   width: 400px;
+}
