@@ -1,0 +1,30 @@
+ul{
+   margin: 0px;
+   padding: 0px; 
+   list-style: none;
+}
+
+li{
+   float: left;
+   /* text-decoration: none;    */
+   /* display: inline; */
+}
+a{
+   text-decoration: none;
+   background-color: aqua;
+   padding: 15px;
+   background-color:red;
+   height: 30px;
+   line-height: 30px;
+   color: antiquewhite;
+   /* display: inline-block; */
+   text-align: center;
+   
+}
+a:hover{
+    color: red;
+    background-color: blue;
+}
+
+
+
